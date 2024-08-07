@@ -47,9 +47,9 @@ $(document).ready(function() {
 
 const overlay = document.querySelector(".overlay");
 const body = document.querySelector("body");
-const menuBtn = document.querySelector(".menu-btn");
-const menuItems = document.querySelector(".menu-items");
-const expandBtn = document.querySelectorAll(".expand-btn");
+const menuBtn = document.querySelector(".menu_btn");
+const menuItems = document.querySelector(".menu_items");
+const expandBtn = document.querySelectorAll(".expand_btn");
 
 function toggle() {
   // disable overflow body
